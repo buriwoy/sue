@@ -21,7 +21,7 @@ fmt.Println(microId)
 
 
 // a unique id based on nanoseconds
-microId := sue.New()
+nanoId := sue.New2()
 
 // sample output: "rrnlFXBWL"
 fmt.Println(nanoId)
