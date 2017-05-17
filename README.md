@@ -4,14 +4,26 @@
 
 ## Install
 
+```bash
   go get github.com/buriwoy/sue
+```
 
 ## Usage
 
 ```go
-microId := sue.New()             // a unique id based on microseconds
-fmt.Println(microId)             // sample output: "3L4CTbdm"
 
-microId := sue.New()             // a unique id based on nanoseconds
-fmt.Println(nanoId)              // sample output: "rrnlFXBWL"
+// a unique id based on microseconds
+microId := sue.New()
+
+// sample output: "3L4CTbdm"
+fmt.Println(microId)
+
+
+
+// a unique id based on nanoseconds
+microId := sue.New()
+
+// sample output: "rrnlFXBWL"
+fmt.Println(nanoId)
+
 ```
