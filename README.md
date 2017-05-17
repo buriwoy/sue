@@ -1,2 +1,2 @@
-# sue
-Simple Unique Epoch ID Generator
+# SUE
+"Simple Unique Epoch" ID Generator
