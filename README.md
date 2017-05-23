@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-  go get github.com/buriwoy/sue
+  go get github.com/chapani/sue
 ```
 
 ## Usage
